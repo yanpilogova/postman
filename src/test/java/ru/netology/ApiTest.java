@@ -17,6 +17,6 @@ public class ApiTest {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("some dat"));
+                .body("data", equalTo("some date"));
     }
 }
